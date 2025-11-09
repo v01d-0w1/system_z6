@@ -1,0 +1,21 @@
+{
+  "final_space": true,
+  "segments": [
+    {
+      "type": "session",
+      "style": "plain"
+    },
+    {
+      "type": "path",
+      "style": "plain"
+    },
+    {
+      "type": "time",
+      "style": "plain",
+      "properties": {
+        "time_format": "15:04:05"
+      }
+    }
+  ]
+}
+

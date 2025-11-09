@@ -1,0 +1,115 @@
+[general.input_block_active]
+fg = "#00e963"  # Primary green (Normal input)
+modifiers = ""
+
+[general.input_block_invalid]
+fg = "#ff0000"  # Red - Error state
+modifiers = ""
+
+[general.input_corsur_active]
+fg = "#000000"  # Black
+bg = "#00e963"  # Primary green (Active cursor)
+modifiers = ""
+
+[general.input_corsur_invalid]
+fg = "#000000"  # Black
+bg = "#ff0000"  # Red - Error cursor
+modifiers = ""
+
+[general.list_item_selected]
+fg = "#00ff63"  # Bright green (Selected items)
+modifiers = "BOLD"
+
+[general.list_highlight_active]
+fg = "#000000"  # Black
+bg = "#004400"  # Darker green - Less popping active highlight
+modifiers = ""
+
+[general.list_highlight_inactive]
+fg = "#000000"  # Black
+bg = "#002200"  # Even darker green - Subtle inactive highlight
+modifiers = ""
+
+[journals_list.block_active]
+fg = "Reset"
+modifiers = "BOLD"
+
+[journals_list.block_inactive]
+fg = "#00c753"  # Dim green (Inactive text)
+modifiers = ""
+
+[journals_list.block_multi_select]
+fg = "#00ff63"  # Bright green (Multi-select)
+modifiers = "BOLD | ITALIC"
+
+[journals_list.highlight_active]
+fg = "#00ff63"  # Bright green text on dark bg
+bg = "#000000"  # Darker green - Less popping active highlight
+modifiers = "BOLD"
+
+[journals_list.highlight_inactive]
+fg = "#00c753"  # Dim green text on dark bg
+bg = "#002200"  # Even darker green - Subtle inactive highlight
+modifiers = "BOLD"
+
+[journals_list.title_active]
+fg = "Reset"
+modifiers = "BOLD"
+
+[journals_list.title_inactive]
+fg = "#00c753"  # Dim green (Inactive title)
+modifiers = "BOLD"
+
+[journals_list.title_selected]
+fg = "#00ff63"  # Bright green (Selected title)
+modifiers = "BOLD"
+
+[journals_list.date_priority]
+fg = "#00a088"  # Teal green (Date indicator)
+modifiers = ""
+
+[journals_list.tags_default]
+fg = "#008800"  # Muted green (Tags)
+modifiers = "DIM"
+
+[editor.block_insert]
+fg = "#00e963"  # Primary green (Insert mode)
+modifiers = "BOLD"
+
+[editor.block_visual]
+fg = "#00ff63"  # Bright green (Visual mode)
+modifiers = "BOLD"
+
+[editor.block_normal_active]
+fg = "Reset"
+modifiers = "BOLD"
+
+[editor.block_normal_inactive]
+fg = "#00c753"  # Dim green (Inactive editor)
+modifiers = ""
+
+[editor.cursor_normal]
+fg = "#000000"  # Black
+bg = "#00a044"  # Muted green - Less popping normal cursor
+modifiers = ""
+
+[editor.cursor_insert]
+fg = "#000000"  # Black
+bg = "#00e963"  # Primary green (Insert cursor)
+modifiers = ""
+
+[editor.cursor_visual]
+fg = "#000000"  # Black
+bg = "#00a044"  # Muted green - Less popping visual cursor
+modifiers = ""
+
+[editor.selection_style]
+fg = "#000000"  # Black
+bg = "#006633"  # Dark muted green - Subtle selection
+modifiers = ""
+
+[msgbox]
+error = "#ff0000"    # Red - Errors
+warning = "#ffff00"  # Yellow - Warnings
+info = "#00e963"     # Primary green - Info messages
+question = "#00a088" # Teal green - Questions

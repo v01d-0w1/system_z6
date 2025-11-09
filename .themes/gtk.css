@@ -1,0 +1,44 @@
+/* Background of window */
+window, .window-frame {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Text colors */
+label, entry, button, combobox, tooltip {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/* Selected text and focus */
+selection, selection background, .selection {
+    background-color: #00FF00;
+    color: #000000;
+}
+
+/* Buttons */
+button {
+    background-image: none;
+    background-color: #000000;
+    border: 1px solid #00FF00;
+    color: #00FF00;
+}
+
+button:hover {
+    background-color: #00AA00;
+    color: #FFFFFF;
+}
+
+/* Entry fields */
+entry {
+    border: 1px solid #00FF00;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Header bar */
+headerbar, headerbar.titlebar {
+    background-color: #000000;
+    color: #00FF00;
+}
+
